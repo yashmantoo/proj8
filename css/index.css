@@ -1,0 +1,139 @@
+body{
+    overflow-x: hidden;
+}
+*
+{
+    font-family: Roboto;
+}
+nav
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+.nav-items
+{
+    flex: 0.5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -100px;  
+    font-size: 20px;
+    color: #5A5399;
+}
+.signin-btn
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    left: -100px;
+    background-image: linear-gradient( to right, #965CF2,#FF8ADC);
+    border-radius: 15px;
+    border-style: none;
+    color: #fff;
+}
+nav>img
+{
+    flex: 0.1;
+    margin-right: 0%;
+}
+.intro-section
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    max-height: 0px;
+    position: relative;
+    top: 900px;
+}
+.bg
+{
+    position: relative;
+    left: 100px;
+    top: 890px;
+    z-index: -1;
+}
+.left-section
+{
+    position: relative;
+    left: 10%;
+    top: -750px;
+}
+h1
+{
+    font-weight: 800;
+    font-size: 70px;
+    margin-bottom: 60px;
+    width: 400px;
+    color: #3E4794;
+}
+h4
+{
+    font-weight: 200;
+    width: 80%;
+    font-weight: 200;
+    color: #5A5399;
+}
+.learn-more-btn
+{
+    background-image: linear-gradient( to right, #965CF2,#FF8ADC);
+    border-radius: 35px;
+    border-style: none;
+    color: #fff;
+    font-weight: 800;
+    font-size: 25px;
+    padding: 15px 25px;
+}
+.imgs-div
+{
+    position: relative;
+    left: 20px;
+    top: -1100px;
+
+}
+.vector-img
+{
+    position: relative;
+    top: 580px;
+}
+.vector-dot
+{
+    position: relative;
+    top: 500px;
+    left: -45px;
+}
+.hamb{
+    display: none;
+}
+@media only screen and (max-width: 750px){
+    .imgs-div{
+        display: none;
+    }
+    body{
+        background-image: url("/images/backcover.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+    }
+    .nav-items{
+        display: none;
+    }
+    .signin-btn{
+        display: none;
+    }
+    .hamb{
+        display: block;
+        position: relative;
+        transform: scale(1.25);
+    }
+    nav{
+        justify-content: space-around;
+        position: relative;
+    }
+}
