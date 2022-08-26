@@ -19,9 +19,9 @@ In this project I have created a landing page from scratch. And I learned a lot 
 - Beautifull UI/UX Design
 - Hosted on Netlify and set up in production
 </br>
-## 😌 Honest Time to finish the project
+😌 Honest Time to finish the project
 
-It took me about 5-6 hrs
+  It took me about 5-6 hrs
 
 ### You can Check it Live on Below Link :
 
