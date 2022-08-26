@@ -21,7 +21,7 @@ In this project I have created a landing page from scratch. And I learned a lot 
 </br>
 ## 😌 Honest Time to finish the project
 
-I had took about 5-6 hrs
+It took me about 5-6 hrs
 
 ### You can Check it Live on Below Link :
 
